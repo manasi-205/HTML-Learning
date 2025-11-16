@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic</title>
+</head>
+<body>
+    <div>
+        <!-- <h1>Semantic</h1> -->
+
+        <!-- 
+
+                 Semantic Tags 
+
+                 -  <article>
+                 -  <section>
+                 -  <nav>
+                 -  <header>
+                 -  <footer>
+                 -  <main>
+                 -  <center>
+                 -  <aside>
+                 -  <summary>
+                 -  <figcaption>
+                 -  <figure>
+
+        -->
+
+        <div style="justify-content: space-between; ">
+
+            <nav style="display: flex;
+                        justify-content: space-between;">
+            <header>
+                <center>
+                    <h1>
+                        News App
+                    </h1>
+                </center>
+            </header>
+            
+            
+                <ul style="display: flex; 
+                           list-style-type: none;">
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <hr>
+
+            <section>
+                <figure>
+                    <img src=" https://kvadrat.az/uploads/articles/666205d642ae1.jpg" alt="html-image" width="500px">
+                        <figcaption>
+                            Html : 1
+                        </figcaption>
+                </figure>
+
+                
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto facilis minus deleniti dicta illum, maxime similique nobis nesciunt ipsa accusamus laborum dignissimos debitis ducimus quia assumenda temporibus! Impedit, ab reiciendis!</p>
+            </section>
+
+            <hr>
+
+            <summary>
+                <center>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dignissimos numquam quis aperiam, saepe perspiciatis facilis aliquid necessitatibus minima doloremque vero ipsum hic, nam fuga, maxime illum ullam suscipit perferendis.</p>
+                </center>
+            </summary>
+        </div>
+
+        
+        <hr>
+
+        <!-- Select Tag -->
+        <h4> Select tag Example </h4>
+
+        <label for="country"> Country: </label>
+        <select id="country">
+            <option value="" selected disabled>Select a country</option>
+            <option value="India">India</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Australia">Australia</option>
+        </select>
+
+        <hr>
+
+        <!-- Data List -->
+
+        <h4> Datalist tag Example </h4>
+
+        <label for="count">Country</label>
+        <input list="list_country" id="count">
+
+        <datalist id="list_country">
+            <option value="India">
+            <option value="Egypt">
+            <option value="Australia">
+        </datalist>
+
+        <hr>
+
+        <!-- Output Tag -->
+
+        <h4> Output tag Example </h4>
+
+        <form oninput="sum.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="number" id="a" value="55"> + 
+            <input type="number" id="b" value="5"> =
+            <output name="sum" for="a b"></output>
+        </form>
+
+        <br>
+        <hr>
+        
+
+        <footer>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus!
+            <center>
+                <p>Copyright &copy; 2025</p>
+            </center>
+        </footer>
+        
+    </div>
+</body>
+</html>
